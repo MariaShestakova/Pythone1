@@ -1,1 +1,4 @@
-print("Hello world")
+name = " Мария "
+age = " 31 "
+city = " Днепр "
+print("Привет,меня зовут" + name + "." + "Мне" + str(age) + "." "Я живу в городе " + city )
