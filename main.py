@@ -1,4 +1,10 @@
-name = " Мария "
-age = " 31 "
-city = " Днепр "
-print("Привет,меня зовут" + name + "." + "Мне" + str(age) + "." "Я живу в городе " + city )
+a = int(input("A:"))
+b = int(input("Б:"))
+c = int(input("В:"))
+
+while a < b:
+    print(a)
+    a +=c
+else:
+    print("А>Б")
+
