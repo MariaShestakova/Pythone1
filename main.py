@@ -1,10 +1,4 @@
-a = int(input("A:"))
-b = int(input("Б:"))
-c = int(input("В:"))
+import random
 
-while a < b:
-    print(a)
-    a +=c
-else:
-    print("А>Б")
-
+a={random.randint(0,9) for i in range(9)}
+print (a)
